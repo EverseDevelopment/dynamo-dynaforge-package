@@ -19,19 +19,16 @@ If you appreciate the work put into this free package, please vote in support of
  <a href="https://www.buymeacoffee.com/j0hnp" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 ## Current Version
-Monocle is currently built against the latest Dynamo stable build. At this time that is 2.5.0. _However, monocle has been tested for Dynamo 2.0.3 - 2.6.0._
-
-## Known Issues
-- When installing from the package manager for the first time, you may need to restart Dynamo.
+DynaForge is currently built against the latest Dynamo stable build. At this time that is 2.5.0.
 
 ## Contributors
 This package is primarily managed by [E-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/EverseDevelopment/DynaForge/pulse).
 
 ## Help improve DynaForge
-If you're interested in contributing to DynaFroge, just submit a [pull request](https://github.com/EverseDevelopment/DynaForge/pulls) or a [feature request](https://github.com/johnpierson/MonocleForDynamo/issues) .
+If you're interested in contributing to DynaFroge, just submit a [pull request](https://github.com/EverseDevelopment/DynaForge/pulls) or a [feature request](https://github.com/EverseDevelopment/DynaForge/issues) .
 
 ## Installation
-Monocle is available through Dynamo's built-in package manager. This provides the simplest installation for most users. If you are interested in manual install, there are some fabulous resources out there describing how to build your own Dynamo package.
+DynaForge is available through Dynamo's built-in package manager.
 
 ## Thank you!
 
