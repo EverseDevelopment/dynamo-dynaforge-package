@@ -42,5 +42,4 @@ Monocle is available through Dynamo's built-in package manager. This provides th
 
 ## Thank you!
 
-
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
