@@ -1,11 +1,6 @@
 # DynaForge
-<h1 align="center">
-  <br>
-  <img src="!Documentation/monocleLogo.png" alt="Rhythm" width="500">
-  <br>
-</h1>
 
-<h3 align="center">A view extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h4>
+<h3 align="center">A Forge extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h4>
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/johnpierson/monoclefordynamo?include_prereleases)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/johnpierson/MonocleForDynamo/graphs/commit-activity)
