@@ -28,7 +28,7 @@ Monocle is currently built against the latest Dynamo stable build. At this time 
 This package is primarily managed by [E-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/EverseDevelopment/DynaForge/pulse).
 
 ## Help improve DynaForge
-If you're interested in contributing to DynaFroge, just submit a [pull request](https://github.com/johnpierson/MonocleForDynamo/pulls) or a [feature request](https://github.com/johnpierson/MonocleForDynamo/issues) .
+If you're interested in contributing to DynaFroge, just submit a [pull request](https://github.com/EverseDevelopment/DynaForge/pulls) or a [feature request](https://github.com/johnpierson/MonocleForDynamo/issues) .
 
 ## Installation
 Monocle is available through Dynamo's built-in package manager. This provides the simplest installation for most users. If you are interested in manual install, there are some fabulous resources out there describing how to build your own Dynamo package.
