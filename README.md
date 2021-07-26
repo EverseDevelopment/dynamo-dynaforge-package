@@ -25,11 +25,7 @@ Monocle is currently built against the latest Dynamo stable build. At this time 
 - When installing from the package manager for the first time, you may need to restart Dynamo.
 
 ## Contributors
-This package is primarily managed by the author of http://sixtysecondrevit.com, [ParallaxTeam](https://www.parallaxteam.com/) and by [People Like You™](https://github.com/johnpierson/MonocleForDynamo/graphs/contributors).
-
-## Updates
-Since there is not currently an update notification process on Dynamo's package manager, I post notifications for updates on twitter.
-[![](https://img.shields.io/twitter/follow/60secondrevit.svg?label=Follow&style=social)](https://twitter.com/60secondrevit)
+This package is primarily managed by the author of https://www.e-verse.co, [E-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/johnpierson/MonocleForDynamo/graphs/contributors).
 
 ## Examples
 _Soon_
