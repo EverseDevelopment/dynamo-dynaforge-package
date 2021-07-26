@@ -25,7 +25,7 @@ Monocle is currently built against the latest Dynamo stable build. At this time 
 - When installing from the package manager for the first time, you may need to restart Dynamo.
 
 ## Contributors
-This package is primarily managed by the author of https://www.e-verse.co, [E-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/johnpierson/MonocleForDynamo/graphs/contributors).
+This package is primarily managed by [E-verse](https://www.e-verse.co/) and by [People Like You™](https://github.com/EverseDevelopment/DynaForge/pulse).
 
 ## Examples
 _Soon_
