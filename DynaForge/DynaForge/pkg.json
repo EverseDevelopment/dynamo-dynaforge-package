@@ -1,0 +1,20 @@
+{
+  "license": "MIT",
+  "file_hash": null,
+  "name": "DynaForge",
+  "version": "1.0.0",
+  "description": "Dyna Forge",
+  "group": "DynaForge",
+  "keywords": [ "Forge", "BIM360" ],
+  "dependencies": [],
+  "contents": "Dyna Forge",
+  "engine_version": "2.5.0",
+  "engine": "dynamo",
+  "engine_metadata": "",
+  "site_url": "",
+  "repository_url": "",
+  "contains_binaries": true,
+  "node_libraries": [
+    "DynaForge, Version=1.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
