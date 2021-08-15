@@ -16,6 +16,12 @@ If you're interested in contributing to DynaFroge, just submit a [pull request](
 ## Installation
 DynaForge is available through Dynamo's built-in package manager.
 
+## About us ##
+
+Our team of AEC professionals, product designers, and software developers will work with you from initial assessment to software implementation..
+
+<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="650" height="200">
+
 ## Thank you!
 
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
