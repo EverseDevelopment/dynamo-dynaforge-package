@@ -20,8 +20,8 @@ DynaForge is available through Dynamo's built-in package manager.
 
 Our team of AEC professionals, product designers, and software developers will work with you from initial assessment to software implementation..
 
-<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="325" height="100">
+[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="325" height="100">](https://github.com/EverseDevelopment/DynaForge/pulse)
 
 ## Thank you!
 
-[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+For your safety this repo is [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
