@@ -1,6 +1,6 @@
 # DynaForge
 
-<h3 align="center">A Forge extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h4>
+<h3 align="left">A Forge extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h4>
 
 If you appreciate the work put into this free package, please vote in support of it on Dynamo's package manager. 
 
