@@ -22,6 +22,3 @@ Our team of AEC professionals, product designers, and software developers will w
 
 [<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="325" height="100">](https://www.e-verse.co/)
 
-## Thank you!
-
-A  [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com) Repository
