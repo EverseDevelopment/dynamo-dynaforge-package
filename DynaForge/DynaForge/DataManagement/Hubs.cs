@@ -15,7 +15,7 @@ namespace DataManagement
         private Hubs() { }
 
         /// <returns></returns>
-        [MultiReturn(new[] { "name", "id" })]
+        [MultiReturn(new[] { "name", "hub_id", "client_id" })]
         public static Dictionary<string, List<string>> Get(string Token)
         {
 
@@ -34,16 +34,19 @@ namespace DataManagement
             {
                 List<string> hubNames = new List<string>();
                 List<string> hubIds = new List<string>();
+                List<string> clientIds = new List<string>();
 
                 foreach (DatumHubs i in deserializedProduct.data)
                 {
                     hubNames.Add(i.attributes.name);
                     hubIds.Add(i.id);
+                    clientIds.Add(i.id.Replace("b.", ""));
                 }
 
                 return new Dictionary<string, List<string>> {
                 { "name", hubNames },
-                { "id", hubIds }
+                { "hub_id", hubIds },
+                { "client_id", clientIds}
                 };
             }
             else

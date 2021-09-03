@@ -14,7 +14,12 @@ namespace TokenFlex
     {
         private ContractNumber() { }
 
-        public static List<Contracts> Get(string Token)
+        /// <summary>
+        /// Get list of Forge Contracts
+        /// </summary>
+        /// <param name="Token"></param>
+        /// <returns></returns>
+        public static List<string> Get(string Token)
         {
 
             var client = new RestClient("https://developer.api.autodesk.com/tokenflex/v1/contract");
@@ -25,27 +30,30 @@ namespace TokenFlex
             IRestResponse response = client.Execute(request);
             Console.WriteLine(response.Content);
 
-            RootobjectContract deserializedProduct = JsonConvert.DeserializeObject<RootobjectContract>(response.Content);
+            RootobjectContractNumber deserializedProduct = JsonConvert.DeserializeObject<RootobjectContractNumber>(response.Content);
 
             if (deserializedProduct != null)
             {
-                return deserializedProduct.Property1.ToList();
+                List < string > result = deserializedProduct.Property1.Select(val => val.contractNumber).ToList();
+
+
+                return result;
             }
             else
             {
-                return new List<Contracts>();
+                return null;
             }
 
         }
     }
 
 
-    public class RootobjectContract
+    class RootobjectContractNumber
     {
-        public Contracts[] Property1 { get; set; }
+        public ContractsNumber[] Property1 { get; set; }
     }
 
-    public class Contracts
+    class ContractsNumber
     {
         public string contractNumber { get; set; }
         public string contractName { get; set; }

@@ -17,7 +17,7 @@ namespace Authentication
         /// This is a test method
         /// </summary>
         /// <returns></returns>
-        public static string Auth(string ClientId, string ClientSecret)
+        public static string Auth(string ClientId, string ClientSecret, string scope)
         {
             var client = new RestClient("https://developer.api.autodesk.com/authentication/v1/authenticate");
             client.Timeout = -1;
@@ -29,7 +29,7 @@ namespace Authentication
             request.AddParameter("grant_type", "client_credentials");
             request.AddParameter("client_id", FORGE_CLIENT_ID);
             request.AddParameter("client_secret", FORGE_CLIENT_SECRET);
-            request.AddParameter("scope", "data:read data:write");
+            request.AddParameter("scope", scope);
             if (FORGE_CLIENT_ID == null || FORGE_CLIENT_SECRET == null)
             {
                 return null;

@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\Authenticate.cs" />
+    <Compile Include="BIM360\AccountAdmin\Projects.cs" />
     <Compile Include="DataManagement.cs" />
     <Compile Include="DataManagement\FileCreate.cs" />
     <Compile Include="DataManagement\FileUpload.cs" />
@@ -143,10 +144,40 @@
     <None Include="pkg.json" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="BIM360\" />
-    <Folder Include="DesignAutomation\" />
-    <Folder Include="ModelDerivative\" />
+    <Folder Include="BIM360\Assets\" />
+    <Folder Include="BIM360\Checklists\" />
+    <Folder Include="BIM360\Cost Management\" />
+    <Folder Include="BIM360\Data Connector\" />
+    <Folder Include="BIM360\Document Management\" />
+    <Folder Include="BIM360\Issues\" />
+    <Folder Include="BIM360\Locations\" />
+    <Folder Include="BIM360\Model Coordination\" />
+    <Folder Include="BIM360\Relationships\" />
+    <Folder Include="BIM360\RFIs\" />
+    <Folder Include="Construction Cloud\Account Admin\" />
+    <Folder Include="Construction Cloud\Assets\" />
+    <Folder Include="Construction Cloud\Cost Management\" />
+    <Folder Include="Construction Cloud\Data Connector\" />
+    <Folder Include="Construction Cloud\Document Management\" />
+    <Folder Include="Construction Cloud\Forms\" />
+    <Folder Include="Construction Cloud\Locations\" />
+    <Folder Include="Construction Cloud\Model Coordination\" />
+    <Folder Include="Construction Cloud\Photos\" />
+    <Folder Include="Construction Cloud\Relationships\" />
+    <Folder Include="Construction Cloud\RFIs\" />
+    <Folder Include="DesignAutomation\Activities\" />
+    <Folder Include="DesignAutomation\AppBundles\" />
+    <Folder Include="DesignAutomation\Engines\" />
+    <Folder Include="DesignAutomation\ForgeApps\" />
+    <Folder Include="DesignAutomation\Health\" />
+    <Folder Include="DesignAutomation\ServiceLimits\" />
+    <Folder Include="DesignAutomation\Shares\" />
+    <Folder Include="DesignAutomation\WorkItems\" />
+    <Folder Include="ModelDerivative\Derivatives\" />
+    <Folder Include="Reality Capture\Photoscene\" />
     <Folder Include="Viewer\" />
+    <Folder Include="Webhooks\Tokens\" />
+    <Folder Include="Webhooks\Webhooks\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\logo.png" />
