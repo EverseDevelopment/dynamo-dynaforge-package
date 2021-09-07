@@ -125,6 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\Authenticate.cs" />
+    <Compile Include="Authentication\Scope.cs" />
     <Compile Include="BIM360\AccountAdmin\Projects.cs" />
     <Compile Include="DataManagement.cs" />
     <Compile Include="DataManagement\FileCreate.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="DataManagement\Hubs.cs" />
     <Compile Include="DataManagement\Projects.cs" />
     <Compile Include="DataManagement\TopFolderContent.cs" />
+    <Compile Include="ModelDerivative\Derivatives\GetFormats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TokenFlex\ContractNumber.cs" />
   </ItemGroup>
@@ -173,7 +175,6 @@
     <Folder Include="DesignAutomation\ServiceLimits\" />
     <Folder Include="DesignAutomation\Shares\" />
     <Folder Include="DesignAutomation\WorkItems\" />
-    <Folder Include="ModelDerivative\Derivatives\" />
     <Folder Include="Reality Capture\Photoscene\" />
     <Folder Include="Viewer\" />
     <Folder Include="Webhooks\Tokens\" />
@@ -198,6 +199,7 @@
     <MakeDir Directories="$(SolutionDir)..\packages\DynaForge\extra" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy  "$(SolutionDir)DynaForge\pkg.json"  "$(SolutionDir)\..\packages\DynaForge"</PostBuildEvent>
+    <PostBuildEvent>copy  "$(SolutionDir)DynaForge\pkg.json"  "$(SolutionDir)\..\packages\DynaForge"
+if $(ConfigurationName) == Debug xcopy /E /Y "$(ProjectDir)..\..\packages\" "$(AppData)\Dynamo\Dynamo Revit\2.5\packages"</PostBuildEvent>
   </PropertyGroup>
 </Project>
