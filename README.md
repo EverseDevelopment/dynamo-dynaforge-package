@@ -3,7 +3,7 @@
 <h3 align="left">An <a href="https://forge.autodesk.com/" target="_blank">Autodesk Forge</a> extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h3>
 
 
-[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/DynamoForge.png" width="325" height="100">](https://www.e-verse.com/)
+[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/DynamoForge.png" width="443" height="166">](https://github.com/EverseDevelopment/DynaForge/wiki)
 
 If you appreciate the work put into this free package, please vote in support of it on Dynamo's package manager. 
 
