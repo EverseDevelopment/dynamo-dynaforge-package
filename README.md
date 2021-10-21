@@ -8,6 +8,9 @@
 
 If you appreciate the work put into this free package, please vote in support of it on Dynamo's package manager. 
 
+## Getting Started
+You can find details on how to get started [Here](https://github.com/EverseDevelopment/DynaForge/wiki/Getting-Started).
+
 ## Current Version
 DynaForge is currently built against the latest Dynamo stable build. At this time that is 2.5.0.
 
