@@ -3,9 +3,6 @@
 <h3 align="left">An <a href="https://forge.autodesk.com/" target="_blank">Autodesk Forge</a> static website to implement live dashboard to a SVF2 model
 <br/> 
 
-## Getting Started
-You can find details on how to get started [Here](https://github.com/EverseDevelopment/DynaForge/wiki/Getting-Started).
-
 ## Current Version
 DynaForge is currently built against the latest Dynamo stable build. At this time that is 2.5.0.
 
