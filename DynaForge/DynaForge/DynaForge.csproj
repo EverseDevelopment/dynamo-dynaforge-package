@@ -38,6 +38,26 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Release\DynaForge.xml</DocumentationFile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>bin\Debug\DynaForge.xml</DocumentationFile>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>bin\Release\DynaForge.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="CefSharp, Version=93.1.111.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
       <HintPath>..\packages\CefSharp.Common.93.1.111\lib\net452\CefSharp.dll</HintPath>
@@ -227,7 +247,8 @@
     <MakeDir Directories="$(SolutionDir)..\packages\DynaForge\extra" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy  "$(SolutionDir)DynaForge\pkg.json"  "$(SolutionDir)\..\packages\DynaForge"
+    <PostBuildEvent>mkdir "$(SolutionDir)..\packages\DynaForge"
+copy  "$(SolutionDir)DynaForge\pkg.json"  "$(SolutionDir)..\packages\DynaForge"
 if $(ConfigurationName) == Debug xcopy /E /Y "$(ProjectDir)..\..\packages\" "$(AppData)\Dynamo\Dynamo Revit\2.5\packages"</PostBuildEvent>
   </PropertyGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
