@@ -25,6 +25,6 @@ DynaForge is available through Dynamo's built-in package manager.
 
 ## About us ##
 
-Our team of AEC professionals, product designers, and software developers will work with you from initial assessment to software implementation.
+We are an international mix of AEC professionals, product designers, and software developers. We work together to transform construction requirements into accurate and partnership-driven technological solutions.
 
 [<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/8-Not-Found.jpg" width="1491" height="550">](https://www.e-verse.com/)
