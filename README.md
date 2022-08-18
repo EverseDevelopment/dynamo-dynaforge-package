@@ -27,4 +27,4 @@ DynaForge is available through Dynamo's built-in package manager.
 
 Our team of AEC professionals, product designers, and software developers will work with you from initial assessment to software implementation.
 
-[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/8-Not-Found.jpg" width="1491" height="680">](https://www.e-verse.com/)
+[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/8-Not-Found.jpg" width="1491" height="600">](https://www.e-verse.com/)
