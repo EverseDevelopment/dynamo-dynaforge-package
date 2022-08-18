@@ -28,7 +28,9 @@ DynaForge is available through Dynamo's built-in package manager.
 We are an international mix of AEC professionals, product designers, and software developers. We work together to transform construction requirements into accurate and partnership-driven technological solutions.
 
 <p align="center" width="100%">
-    [<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">](https://www.e-verse.com/)
+    <a href="[https://www.qries.com/](https://www.e-verse.com/)">
+    <img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">
+    </a>
 </p>
 
 
