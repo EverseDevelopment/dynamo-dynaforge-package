@@ -3,7 +3,7 @@
 <h3 align="left">An <a href="https://forge.autodesk.com/" target="_blank">Autodesk Forge</a> extension for <a href="http://dynamobim.org/" target="_blank">Dynamo</a>.</h3>
 <br/>
 
-[<img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/DynamoForge.png" width="443" height="166">](https://github.com/EverseDevelopment/DynaForge/wiki)
+[<img src="https://s3.amazonaws.com/everse.assets/GithubReadme/DynamoForge.png" width="443" height="166">](https://github.com/EverseDevelopment/DynaForge/wiki)
 <br/>
 
 If you appreciate the work put into this free package, please vote in support of it on Dynamo's package manager. 
@@ -29,6 +29,6 @@ We are an international mix of AEC professionals, product designers, and softwar
 
 <p align="center" width="100%">
     <a href="https://www.e-verse.com/">
-    <img src="https://github.com/EverseDevelopment/DynaForge/blob/main/Assets/e-verse_logo_no%20slogan.jpg" width="732" height="271" align="center">
+    <img src="https://s3.amazonaws.com/everse.assets/GithubReadme/e-verse_logo_no+slogan.jpg" align="center">
     </a>
 </p>
